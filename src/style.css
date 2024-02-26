@@ -91,7 +91,7 @@ button {
   background-color: var(--clr-1);
 }
 button:hover {
-  background-color: hsl(159, 40%, 20%);
+  background-color: hsl(120, 100%, 25%);
 }
 button img {
   padding-right: 6px;
@@ -107,7 +107,7 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: var(--clr-1);
+  color: hsl(120, 100%, 25%);
 }
 @media only screen and (max-width: 768px) {
   main {
