@@ -101,9 +101,35 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
 }
 footer a {
   text-decoration: none;
   color: var(--clr-1);
+}
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    margin-top: 250px;
+    width: 90%;
+    padding: none;
+    min-width: 300px;
+    max-width: 300px;
+    overflow: visible;
+  }
+  .ctn-container {
+    padding: 25px;
+  }
+  .ctn-img {
+    margin-top: -230px;
+    background: url("../images/image-product-mobile.jpg");
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    max-width: 300px;
+    width: 100%;
+    min-width: 250px;
+    height: 250px;
+    position: absolute;
+  }
 }
