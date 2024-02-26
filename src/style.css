@@ -54,6 +54,7 @@ main {
   line-height: 2rem;
 }
 .desc {
+  color: var(--clr-5);
   padding-top: 25px;
   font-size: 0.89rem;
   line-height: 1.43rem;
