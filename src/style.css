@@ -50,6 +50,7 @@ main {
 .title {
   font-weight: 700;
   font-family: "Fraunces";
+  font-size: 2rem;
   padding-top: 20px;
   line-height: 2rem;
 }
