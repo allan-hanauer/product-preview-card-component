@@ -31,7 +31,7 @@ main {
   overflow: hidden;
 }
 .ctn-img {
-  background: url("../images/image-product-desktop.jpg") no-repeat;
+  background: url("../images/image-product-desktop.webp") no-repeat;
   background-size: contain;
   width: 300px;
   height: 100%;
@@ -89,9 +89,10 @@ button {
   color: var(--clr-6);
   padding: 10px 10px;
   background-color: var(--clr-1);
+  transition: 0.5s;
 }
 button:hover {
-  background-color: hsl(120, 100%, 25%);
+  background-color: hsl(120, 100%, 20%);
 }
 button img {
   padding-right: 6px;
@@ -107,7 +108,7 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #000;
+  color: #003d00;
 }
 @media only screen and (max-width: 768px) {
   main {
@@ -124,7 +125,7 @@ footer a {
   }
   .ctn-img {
     margin-top: -230px;
-    background: url("../images/image-product-mobile.jpg");
+    background: url("../images/image-product-mobile.webp");
     border-radius: 10px 10px 0px 0px;
     background-size: cover;
     max-width: 300px;
